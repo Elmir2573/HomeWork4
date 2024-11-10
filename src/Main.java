@@ -2,25 +2,24 @@ import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        System.out.println("Задача № 1");
-        int age = 22;
+               System.out.println("Задача № 1");
+        int age = 12;
         if (age >= 18){
             System.out.println("Если возраст человека равен " +age+ " то он совершеннолетний.");}
-        if (age < 18){
-            System.out.println("Если возраст человека равен " +age+ " то он не достиг совершеннолетия, нужно немного подождать.");}
+        else {
+            System.out.println("Он не достиг совершеннолетия, нужно немного подождать.");}
         System.out.println("Задача № 2");
-int airTemperature = 6;
+int airTemperature = 4;
 if(airTemperature < 5){
     System.out.println("На улице " +airTemperature+ " градусов, нужно надеть шапку.");}
-if(airTemperature > 5){
-    System.out.println("На улице " +airTemperature+ " градусов, можно идти без шапки.");}
+else {
+    System.out.println("Mожно идти без шапки.");}
         System.out.println("Задача № 3");
-int carSpeed = 62;
+int carSpeed = 52;
 if(carSpeed > 60){
     System.out.println("Если скорость " +carSpeed+ " км/ч, то придется заплатить штраф");}
-if (carSpeed < 60){
-    System.out.println("Если скорость " +carSpeed+ " км/ч, то можно ездить спокойно");}
+else{
+    System.out.println("Mожно ездить спокойно");}
         System.out.println("Задача № 4");
 int personsAge = 3;
 if(personsAge>=2 && personsAge <=6){
